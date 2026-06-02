@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+}
+
+/* Main Layout */
+
+.app-container {
+  display: flex;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: white;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.logo {
+  color: #2563eb;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 12px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.menu li:hover {
+  background-color: #f0f4ff;
+}
+
+/* Main Content */
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.heading {
+  margin-bottom: 5px;
+}
+
+.small-text {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Search Section */
+
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box,
+.department {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.search-box {
+  width: 300px;
+}
+
+/* Table */
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.employee-table th {
+  background-color: #f3f4f6;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Badge */
+
+.badge {
+  background-color: #d1fae5;
+  color: green;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* Pagination */
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.page-btn {
+  padding: 5px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.active-page {
+  background-color: black;
+  color: white;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  width: 180px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.add-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.edit-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+}
